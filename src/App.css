@@ -1,0 +1,90 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.truncate {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+
+@font-face {
+  font-family: alibaba;
+  src: url('https://aishop-1304948377.cos.ap-shanghai.myqcloud.com/aisoup/font/alibaba.woff2') format('woff2');
+}
+@font-face {
+  font-family: alimama;
+  src: url('https://aishop-1304948377.cos.ap-shanghai.myqcloud.com/aisoup/font/alimama.woff2') format('woff2');
+}
+@font-face {
+  font-family: zk;
+  src: url('https://aishop-1304948377.cos.ap-shanghai.myqcloud.com/aisoup/font/zk.woff2') format('woff2');
+}
+@font-face {
+  font-family: md;
+  src: url('https://aishop-1304948377.cos.ap-shanghai.myqcloud.com/aisoup/font/md.woff2') format('woff2');
+}
+@font-face {
+  font-family: zh;
+  src: url('https://aishop-1304948377.cos.ap-shanghai.myqcloud.com/aisoup/font/zh.woff2') format('woff2');
+}
+@font-face {
+  font-family: fzhtjt;
+  src: url('https://aishop-1304948377.cos.ap-shanghai.myqcloud.com/aisoup/font/fzhtjt.woff2') format('woff2');
+}
+@font-face {
+  font-family: rzcp;
+  src: url('https://aishop-1304948377.cos.ap-shanghai.myqcloud.com/aisoup/font/rzcp.woff2') format('woff2');
+}
+@font-face {
+  font-family: yshst;
+  src: url('https://aishop-1304948377.cos.ap-shanghai.myqcloud.com/aisoup/font/yshst.woff2') format('woff2');
+}
+.ant-color-picker-input-container .ant-select {
+  display: none;
+}

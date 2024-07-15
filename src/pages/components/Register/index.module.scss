@@ -1,0 +1,28 @@
+.loginBg {
+  height: 100vh;
+  width: 100vw;
+  background: url(./login-bg-129162df.png) repeat 100%;
+
+  .welcome {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  .loginWrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff80;
+    width: 400px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+  }
+}

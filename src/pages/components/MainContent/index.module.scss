@@ -1,0 +1,52 @@
+.mainContent {
+  color: #404040;
+  display: flex;
+  padding: 46px 0;
+  justify-content: center;
+  min-width: 1200px;
+  height: calc(100vh - 60px);
+
+  .mainContentLeft {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 730px;
+    height: 687px;
+    display: flex;
+    &.dev {
+      height: auto;
+      overflow: scroll;
+    }
+  }
+
+  .configWrap {
+    padding: 0 10px;
+    flex: 1;
+    position: relative;
+  }
+
+  .configContent {
+    position: relative;
+    height: 512px;
+  }
+  
+  .canvasWrap {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .advancedWrap {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .show {
+    opacity: 1;
+    pointer-events: all;
+  }
+  
+  .advanced {
+    padding: 15px 0 15px 10px;
+  }
+  
+}

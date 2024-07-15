@@ -1,0 +1,27 @@
+.contentHeight {
+  min-height: calc(100vh - 76px);
+}
+.activeTab {
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background-color: #6884FF;
+    border-radius: 3px;
+  }
+}
+
+.imgMask {
+  :global(.ant-image-mask) {
+    background: rgba(0,0,0,0.3);
+  }
+}
+.scrollView {
+  :global(.rc-scrollbars-view) {
+    margin-right: -16px !important;
+  }
+}

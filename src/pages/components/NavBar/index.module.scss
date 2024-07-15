@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  align-items: center;
+
+  .logoWrap {
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+  }
+  .logo {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+}

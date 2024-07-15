@@ -1,0 +1,8 @@
+.smearDialog {
+  :global(.ant-modal-mask) {
+    position: absolute;
+  }
+  :global(.ant-modal-wrap) {
+    position: absolute;
+  }
+}

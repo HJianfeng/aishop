@@ -1,0 +1,14 @@
+.upload {
+  :global(.ant-upload-drag) {
+    border: none;
+    background: transparent;
+  
+  }
+  :global(.ant-upload-drag-hover .mask-upload) {
+    display: block !important;
+  }
+  :global(.ant-upload) {
+    padding: 0 !important;
+  }
+}
+  

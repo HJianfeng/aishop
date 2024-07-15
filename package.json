@@ -1,0 +1,74 @@
+{
+  "name": "aishop-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^5.1.4",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.36",
+    "@types/react": "^18.2.12",
+    "@types/react-dom": "^18.2.5",
+    "antd": "^5.8.1",
+    "axios": "^1.4.0",
+    "fabric": "^5.3.0",
+    "fontfaceobserver": "^2.3.0",
+    "history": "^5.3.0",
+    "moment": "^2.29.4",
+    "pubsub-js": "^1.9.4",
+    "rc-scrollbars": "^1.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.2",
+    "react-scripts": "5.0.1",
+    "react-viewer": "^3.2.2",
+    "redux": "^4.2.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "start:ali": "dotenv -e .env.ali react-app-rewired start",
+    "start:channel": "dotenv -e .env.channel react-app-rewired start",
+    "build": "react-app-rewired build",
+    "build:ali": "dotenv -e .env.ali react-app-rewired build",
+    "build:channel": "dotenv -e .env.channel react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/fabric": "^5.3.3",
+    "@types/pubsub-js": "^1.8.3",
+    "autoprefixer": "^10.4.14",
+    "babel-plugin-import": "^1.13.6",
+    "customize-cra": "^1.0.0",
+    "dotenv-cli": "^7.3.0",
+    "node-sass": "^7.0.3",
+    "postcss": "^8.4.27",
+    "react-app-rewired": "^2.2.1",
+    "react-router-dom": "^6.13.0",
+    "sass-loader": "^13.3.2",
+    "tailwindcss": "^3.3.3"
+  }
+}

@@ -1,0 +1,46 @@
+.addTaskConfig {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  margin-right: 16px;
+  padding: 10px;
+}
+
+.addTitleWrap {
+  display: flex;
+  align-items: center;
+}
+
+.addTitle {
+  display: flex;
+  align-items: center;
+}
+
+
+.switchBox {
+  display: flex;
+  align-items: center;
+
+  .switchText {
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    vertical-align: middle;
+  }
+}
+
+.previewImage {
+  // width: 300px;
+  height: 280px;
+}
+
+.draggerBox {
+  height: 350px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

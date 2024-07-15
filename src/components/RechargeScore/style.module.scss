@@ -1,0 +1,20 @@
+.module {
+  :global(.ant-modal-content) {
+    padding: 0;
+  }
+}
+
+.navBarActive {
+  position: relative;
+  &::before {
+    content: '';
+    width: 64px;
+    height: 6px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -32px;
+    background: #6884FF;
+    border-radius: 3px;
+  }
+}

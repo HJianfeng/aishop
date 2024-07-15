@@ -1,0 +1,10 @@
+.upload {
+    :global(.ant-upload-drag) {
+      border: none;
+      background: transparent;
+    }
+    :global(.ant-upload) {
+      padding: 0 !important;
+    }
+  }
+  

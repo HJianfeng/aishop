@@ -1,0 +1,18 @@
+.navBox {
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  width: 100%;
+  font-size: 16px;
+  .navItem {
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+
+    &.active {
+      font-size: 22px;
+      color: #5f74d4;
+    }
+  }
+}
